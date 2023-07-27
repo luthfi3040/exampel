@@ -1,0 +1,56 @@
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+body{
+    background-color: rgb(77, 197, 77);
+}
+nav ul li a{
+    text-align: right;
+
+}
+.navbar nav ul li{
+    dispaly : flex;
+    
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+h2{
+ background-color: gold;
+ padding : 60px;
+ text-align: center;
+}
+li{
+    background-color:gold;
+    float: left;
+    overflow: hidden;
+    color:rgb(96, 139, 202);
+    font-weight: lighter;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-family: cursive;
+}
+p{
+  text-align: center;
+  
+}
+ul{
+    text-align: left;
+    
+}
+header{
+    
+        width :1100px;
+        margin:auto;
+        position: relative;
+}
+figcaption{
+    align:  justify;
+
+}
